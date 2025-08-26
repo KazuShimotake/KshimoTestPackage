@@ -3,10 +3,12 @@ Repository to store code for attempts at creating a python package
 
 Reference: https://www.youtube.com/watch?v=tEFkHEKypLI
 
-Command line commands of note: 
-- python3 setup.py sdist bdist_wheel
-- pip3 install twine
-- twine upload dist/*
+Command line commands of note to use while inside the folder itself: 
+- python3 setup.py sdist bdist_wheel (this one may or may not be necessary since it was in the video, but I got it to work with the following three)
+- python -m pip install --upgrade build twine
+- python -m build
+- python -m twine upload dist/*
+Note you'll need your PyPI API key here
 
 Directory structure
 - Code folder:

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.1'
+VERSION = '0.0.4'
 DESCRIPTION = 'A basic hello package'
 
 # Setting up

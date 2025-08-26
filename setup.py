@@ -14,7 +14,7 @@ setup(
     description=DESCRIPTION,
     packages=find_packages(),
     install_requires=[],
-    keywords=['python', 'video', 'stream', 'video stream', 'camera stream', 'sockets'],
+    keywords=['python'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
